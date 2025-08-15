@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link href="./favicon.png" rel="shortcut icon">
-  <title>CodeRun_一个纯前端实现的在线代码运行预览工具</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link href="./favicon.png" rel="icon" type="image/png">
+
+  <!-- Title -->
+  <title>CodeRun - 在线前端代码运行工具 | Online HTML/CSS/JS Runner</title>
+
+  <!-- Meta: Description -->
+  <meta name="description" content="CodeRun 是一个纯前端实现的在线代码运行预览工具，支持 HTML、CSS、JavaScript，即开即用，适合学习、测试和分享前端代码。CodeRun is a client-side online code runner that lets you preview HTML, CSS, and JS code instantly.">
+
+  <!-- Meta: Keywords -->
+  <meta name="keywords" content="在线代码运行,在线HTML编辑器,HTML预览工具,JavaScript运行,前端代码编辑器,Online Code Editor,HTML CSS JS Runner,Code Playground">
+
+  <!-- Meta: Author -->
+  <meta name="author" content="CodeRun">
+
+  <!-- Open Graph (for social media preview) -->
+  <meta property="og:title" content="CodeRun - 在线前端代码运行工具">
+  <meta property="og:description" content="一个纯前端的 HTML/CSS/JavaScript 在线代码运行预览平台，助你快速测试前端代码。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.it-res.com/wp-content/uploads/2025/05/1747830922-a8e864d04c95572.png">
+  <meta property="og:url" content="https://it-res.com">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CodeRun - 在线前端代码运行工具">
+  <meta name="twitter:description" content="立即在线运行 HTML/CSS/JS 代码，轻松预览和测试前端代码片段。">
+  <meta name="twitter:image" content="https://www.it-res.com/wp-content/uploads/2025/05/1747830922-a8e864d04c95572.png">
+
+  <!-- Language Alternate Links -->
+  <link rel="alternate" hreflang="zh" href="https://it-res.com" />
+  <link rel="alternate" hreflang="en" href="https://it-res.com/en" />
+
 </head>
 
 <body>
   <div id="app"></div>
+
+  <!-- Prettier dependencies -->
   <script defer src="./prettier/standalone.js"></script>
   <script defer src="./prettier/parser-html.js"></script>
   <script defer src="./prettier/parser-postcss.js"></script>
@@ -18,5 +50,4 @@
   <script defer src="./prettier/parser-typescript.js"></script>
   <!-- built files will be auto injected -->
 </body>
-
 </html>
